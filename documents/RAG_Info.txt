@@ -1,0 +1,22 @@
+
+RAG (Retrieval-Augmented Generation) is a technique used in modern NLP systems to improve the accuracy and reliability of generated responses. 
+Instead of relying only on a language model's internal memory, RAG retrieves relevant information from external documents or a database and then uses that context to generate answers.
+
+Main Steps in RAG:
+1. Retrieval: Identify relevant documents or text chunks using similarity search (like FAISS, BM25, etc.)
+2. Augmentation: Combine the retrieved documents with the original user query to build a context.
+3. Generation: Pass the context and query to a language model (LLM) to generate a final answer.
+
+Applications of RAG:
+- Chatbots with document knowledge
+- Customer support automation
+- Legal and medical Q&A systems
+- Personalized education tutors
+
+Popular libraries and tools used in RAG include:
+- LangChain
+- HuggingFace Transformers
+- FAISS / ChromaDB / Weaviate
+- OpenAI or open LLMs (Mistral, LLaMA, etc.)
+
+RAG is especially useful when the data is too large to fit into a model's context window, or when working with dynamic and frequently updated information.

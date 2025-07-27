@@ -1,0 +1,20 @@
+Welcome to the RAG Chatbot Documentation
+
+This is a sample document for testing the RAG (Retrieval-Augmented Generation) chatbot.
+
+About RAG:
+RAG combines retrieval and generation to provide accurate answers based on your documents.
+It first searches for relevant information in your document collection, then uses that information to generate responses.
+
+Features:
+- Document loading from multiple formats (PDF, TXT)
+- Vector-based similarity search
+- Context-aware responses
+- Chat history management
+
+How to use:
+1. Load your documents using the sidebar
+2. Ask questions about the content
+3. Get answers based on the document information
+
+This chatbot can help you quickly find information from your document collection.
